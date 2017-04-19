@@ -1,0 +1,6 @@
+server:
+  port: 8080
+
+ppdai:
+  cupSize: B
+  age: 18
