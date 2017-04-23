@@ -6,10 +6,12 @@ package work.touch.enums;
 public enum RequestURLEnum {
     AUTO_LOGIN("http://gw.open.ppdai.com/auth/LoginService/AutoLogin"),
 
-    BIDDING("http://gw.open.ppdai.com/invest/BidService/Bidding"),
+    BIDDING ("http://gw.open.ppdai.com/invest/BidService/Bidding"),
 
-    GET_LOAN_LIST("http://gw.open.ppdai.com/invest/LLoanInfoService/LoanList")
+    GET_LOAN_LIST ("http://gw.open.ppdai.com/invest/LLoanInfoService/LoanList")
+
     ;
+
 
     private String url;
 

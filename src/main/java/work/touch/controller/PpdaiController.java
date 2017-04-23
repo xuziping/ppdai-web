@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import work.touch.domain.Account;
+import work.touch.domain.BiddingSettings;
 import work.touch.domain.Result;
 import work.touch.service.PpdaiService;
 import work.touch.utils.ResultUtil;
@@ -35,5 +36,11 @@ public class PpdaiController {
 //        return ResultUtil.succ("");
         
         return "http://www.baidu.com";
+    }
+
+    @RequestMapping(value = "/run")
+    public void run(@Valid BiddingSettings settings, HttpServletRequest request, BindingResult bindingResult) {
+
+
     }
 }
